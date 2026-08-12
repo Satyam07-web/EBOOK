@@ -532,6 +532,13 @@ body {
   .code-line, .term-line, .term-output { opacity: 1; transform: none; animation: none; }
   .carousel-btn { transition: none; }
 }
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: inherit;
+}
 </style>
 </head>
 <body>
@@ -641,7 +648,8 @@ body {
             <div class="ebook-pages" aria-hidden="true"></div>
             <div class="ebook-spine" aria-hidden="true"></div>
             <div class="ebook-cover" aria-hidden="true">
-              <div class="cover-badge">Premium Digital Edition</div>
+              <img src="./hero-image.jpeg" alt="AI for Students Ebook" class="hero-image">
+               <div class="cover-badge">Premium Digital Edition</div>
               <h2 class="cover-title">AI FOR STUDENTS</h2>
               <p class="cover-subtitle">Study Smarter. Research Better. Get More Done With AI.</p>
               <div class="cover-features">
